@@ -1,10 +1,17 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  postcss: {
-    plugins: {
-      'postcss-nesting': {}
-    }
+  devtools: { enabled: true },
+  modules: ["@nuxt/content", "nuxt-primevue"],
+  content: {
+    markdown: {
+      remarkPlugins: ["remark-math"],
+      rehypePlugins: ["rehype-mathjax"],
+    },
   },
-  devtools: {
-    enabled: true
-  }
-})
+  css: [
+    "primevue/resources/themes/aura-dark-blue/theme.css",
+    "primeflex/primeflex.css",
+    "primeicons/primeicons.css",
+    '~/assets/css/global.css'
+  ],
+});

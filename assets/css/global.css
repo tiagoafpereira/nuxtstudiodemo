@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.custom-link {
+  color: #a2a2a2;
+}
+.active-option {
+  color: #fff;
+}

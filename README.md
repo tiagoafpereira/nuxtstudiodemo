@@ -1,66 +1,42 @@
-# Nuxt Hacker News
+# Content v2 Minimal Starter
 
-Hacker News clone built with [Nuxt](https://nuxt.com).
+Look at the [Content documentation](https://content.nuxt.com/) to learn more.
 
-<p align="center">
-  <a href="https://hn.nuxt.space" target="_blank">
-    <img width="1090" src="https://hn.nuxt.space/cover.jpg">
-    <br>
-    Live Demo
-  </a>
-</p>
+## Setup
 
-## Demo
+Make sure to install the dependencies:
 
-https://hn.nuxt.space
+```bash
+# yarn
+yarn install
 
-> Hosted on [Vercel](https://vercel.com/): `npm run build`
+# npm
+npm install
 
-To disable server-side render for a page, simply append `?csr` to the URL, example: https://hn.nuxt.space/news/1?csr
-
-## Performance
-
-- Lighthouse [100/100](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhackernews-git-nuxt3-nuxt-js.vercel.app%2Fnews%2F1) (Slow 4G / Mobile Moto G4)
-  - Interactive: 1.4s
-  - Total Blocking Time: 30ms
-
-## Features
-
-- Server Side Rendering
-- Vite-based hot module replacement (HMR) dev environment
-- Deploys anywhere with zero config (Vercel, Netlify, Cloudflare, etc.) powered by [Nitro](https://github.com/unjs/nitro)
-- Code Splitting
-- Prefetch/Preload JS + DNS + Data
-
-## Build Setup
-
-**Requires Node.js 14+**
-
-``` bash
-# install dependencies
-npm install # or yarn
-
-# serve in dev mode, with hot reload at localhost:3000
-npm run dev
-
-# build for production (server-side rendering)
-npm run build
-
-# serve in production mode (server-side rendering)
-npm start
-
-# validate and fix with ESLint (with Prettier)
-npm run lintfix
+# pnpm
+pnpm install
 ```
 
-## Links
+## Development Server
 
-For the Nuxt 2 version, check out the [`nuxt2` branch](https://github.com/nuxt/hackernews/tree/nuxt2)
+Start the development server on http://localhost:3000
 
-## License
+```bash
+npm run dev
+```
 
-MIT
+## Production
 
-## Credits
+Build the application for production:
 
-This repository is originally ported from [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0)
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
