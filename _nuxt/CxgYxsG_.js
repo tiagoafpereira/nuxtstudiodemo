@@ -1,0 +1,1 @@
+import{ae as e}from"./BdS5Mgt3.js";var o={name:"Row",extends:e,inject:["$rows"],mounted:function(){var t;(t=this.$rows)===null||t===void 0||t.add(this.$)},unmounted:function(){var t;(t=this.$rows)===null||t===void 0||t.delete(this.$)},render:function(){return null}};export{o as default};
