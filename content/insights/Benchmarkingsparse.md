@@ -12,7 +12,7 @@ authors:
     role: Author
   - name: david-carvalho
     role: Reviewer and Editor
-image: assets/img/articles/cpu_vs_gpu_eigensolver_benchmark/cpu_vs_gpu_eigensolver_benchmark_snapshot.jpg
+image: /img/articles/cpu_vs_gpu_eigensolver_benchmark/cpu_vs_gpu_eigensolver_benchmark_snapshot.jpg
 description: Do GPUs solve sparse eigenproblems faster than CPUs? In this post, we answer this question by comparing the SciPy and CuPy eigensolvers.
 category: Benchmarks
 tags: ["Eigensolver", "CPU vs GPU", "SciPy", "CuPy"]
